@@ -1,5 +1,5 @@
 {
-  "homepage": "https://artemanashkin.github.io/porfolio",
+  "homepage": "https://anashkinartem.github.io/portfolio",
   "name": "porfolio",
   "version": "0.1.0",
   "private": true,
@@ -44,6 +44,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "@types/node-sass": "^4.11.2",
+    "gh-pages": "^3.2.3",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0"
   }
 }
