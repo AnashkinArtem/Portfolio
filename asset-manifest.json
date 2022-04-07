@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/porfolio.github.io/static/js/main.6112cda3.js",
-    "index.html": "/porfolio.github.io/index.html",
-    "main.6112cda3.js.map": "/porfolio.github.io/static/js/main.6112cda3.js.map"
+    "main.js": "/porfolio/static/js/main.6112cda3.js",
+    "index.html": "/porfolio/index.html",
+    "main.6112cda3.js.map": "/porfolio/static/js/main.6112cda3.js.map"
   },
   "entrypoints": [
     "static/js/main.6112cda3.js"
