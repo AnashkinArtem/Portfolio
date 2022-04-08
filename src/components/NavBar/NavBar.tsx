@@ -1,27 +1,36 @@
 import React from 'react'
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-
+import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
+import About from './navigations/About/About';
+import Certificates from './navigations/Certificates/Certificates';
+import Skills from './navigations/Skills/Skills';
+import Projects from './navigations/Projects/Projects';
 
 import styles from './navbar.module.scss'
-import About from './navigations/About';
-import Certificates from './navigations/Certificates';
-import Skills from './navigations/Skills';
 
 
-const NavBar: React.FC = (): JSX.Element => {
+
+const NavBar = () => {
+
+  const setActive = ({isActive} : {isActive: any}) => isActive ? 'active__link' : '';
+
   return (
-    <>        <BrowserRouter>
+    <>  
+        <BrowserRouter>
         <div className={styles.navbar}>
         <div className={styles.navbar__wrapper}> 
-            <Link to="/portfolio/" className={styles.navbar__link}>About me</Link>
-            <Link to="/portfolio/skills" className={styles.navbar__link}>Skills</Link>
-            <Link to="/portfolio/certificates" className={styles.navbar__link}>Certificates</Link> 
+            <NavLink to="/portfolio/" className={setActive}><span className={styles.navbar__link}>About</span></NavLink>
+            <NavLink to="/portfolio/skills" className={setActive}><span className={styles.navbar__link}>Skills</span></NavLink>
+            <NavLink to="/portfolio/certificates" className={setActive}><span className={styles.navbar__link}>Certificates</span></NavLink> 
+            <NavLink to="/portfolio/projects" className={setActive}><span className={styles.navbar__link}>Projects</span></NavLink>
         </div>  
-            <Routes>
-                <Route path='/portfolio' element={<About/>}/>
-                <Route path='/portfolio/skills' element={<Skills/>}/>
-                <Route path='/portfolio/certificates' element={<Certificates/>}/>
-            </Routes>       
+            <div className={styles.navbar__descr}>
+              <Routes>
+                  <Route path='/portfolio' element={<About/>}/>
+                  <Route path='/portfolio/skills' element={<Skills/>}/>
+                  <Route path='/portfolio/certificates' element={<Certificates/>}/>
+                  <Route path='/portfolio/projects' element={<Projects/>}/>
+              </Routes> 
+            </div>      
         </div>
         </BrowserRouter>
     </>

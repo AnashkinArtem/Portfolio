@@ -1,0 +1,24 @@
+@import "../../../../variables";
+
+.about{
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 10px;
+        max-width: 700px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        border-bottom: $main-color-green 2px solid;
+        padding-bottom: 10px;
+        p {
+            text-indent: 20px;
+        }
+    }
+}
