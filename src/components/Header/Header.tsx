@@ -3,7 +3,7 @@ import Logo from 'src/base/Logo/Logo'
 import avatar from 'src/image/header-avatar.jpg'
 import styles from './header.module.scss'
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <>
       <div className={styles.header}>
