@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.df0fc1be.css",
-    "main.js": "/portfolio/static/js/main.5e3f3fb7.js",
+    "main.css": "/portfolio/static/css/main.1667c7a1.css",
+    "main.js": "/portfolio/static/js/main.b1e6cad5.js",
     "static/media/header-avatar.jpg": "/portfolio/static/media/header-avatar.2588ed70739d4cb951c9.jpg",
     "static/media/Raleway-Light.ttf": "/portfolio/static/media/Raleway-Light.f25e9b3a1fc8e48e53f5.ttf",
     "static/media/Raleway-Medium.ttf": "/portfolio/static/media/Raleway-Medium.1af9f1e9f3fd4766df83.ttf",
@@ -11,12 +11,14 @@
     "static/media/Raleway-Bold.ttf": "/portfolio/static/media/Raleway-Bold.d1a96e2aa6257c864d4d.ttf",
     "static/media/Raleway-Thin.ttf": "/portfolio/static/media/Raleway-Thin.537e4a263280ac058bf9.ttf",
     "static/media/Raleway-Black.ttf": "/portfolio/static/media/Raleway-Black.eef1ff812c4eced3a276.ttf",
+    "static/media/logo.png": "/portfolio/static/media/logo.af5f8e0a7971acdc8265.png",
+    "static/media/bg_about.jpg": "/portfolio/static/media/bg_about.24e63da209e7b2098d68.jpg",
     "index.html": "/portfolio/index.html",
-    "main.df0fc1be.css.map": "/portfolio/static/css/main.df0fc1be.css.map",
-    "main.5e3f3fb7.js.map": "/portfolio/static/js/main.5e3f3fb7.js.map"
+    "main.1667c7a1.css.map": "/portfolio/static/css/main.1667c7a1.css.map",
+    "main.b1e6cad5.js.map": "/portfolio/static/js/main.b1e6cad5.js.map"
   },
   "entrypoints": [
-    "static/css/main.df0fc1be.css",
-    "static/js/main.5e3f3fb7.js"
+    "static/css/main.1667c7a1.css",
+    "static/js/main.b1e6cad5.js"
   ]
 }
