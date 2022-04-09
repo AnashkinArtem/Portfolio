@@ -1,24 +1,39 @@
 @import "../../../../variables";
 
+
 .about{
     &__wrapper{
         display: flex;
         justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: url('../../../../image/bg_about.jpg') center (center/cover) no-repeat;
+        min-height: 400px;
+        padding: 2rem;
     }
     &__info{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        padding: 10px;
         display: flex;
         flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        gap: 10px;
+        justify-content: space-around;
+        align-items: center;
+        color: rgb(218, 218, 218);
         max-width: 700px;
         font-weight: 500;
-        font-size: 18px;
-        line-height: 20px;
-        border-bottom: $main-color-green 2px solid;
-        padding-bottom: 10px;
+        font-size: 20px;
+        line-height: 28px;
+        background: #021522e9;
+        border: $main-color-green 5px solid;
+        border-radius: 10px;
         p {
             text-indent: 20px;
+            a{
+                color: yellow;
+            }
+        }
+        &:last-child{
+            gap: 0;
         }
     }
 }

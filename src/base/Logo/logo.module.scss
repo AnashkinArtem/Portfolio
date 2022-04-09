@@ -5,20 +5,18 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   a{
+   a{   
+       display: flex;
+       align-items: center;
        text-decoration: none;
-        svg{
-            width: 60px;
-            height: 60px;
-            &:hover{
-                cursor: pointer;
-            }  
-            g{
-                &:hover{
-                    fill: $main-color-green;
-                    transition: all .6s ease;
-                }  
-            }
+       transition: all .5s ease-in;
+        img{
+            width: 70px;
+            height: 70px;
+        }
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
         }
    }
 
