@@ -7,7 +7,7 @@
         align-items: center;
         padding: 10px;
         height: 60px;
-        background: black;
+        background: #0c0c0c;
         color: white;
     }
     &__link{
@@ -42,14 +42,4 @@
         from {width: 0px;}
         to {width: 100%;}
     } 
-    // &__descr{
-    //     display: flex;
-    //     flex-direction: column;
-    //     justify-content: center;
-    //     text-align: start;
-    //     width: 100%;
-    //     background: #36729A;
-    //     min-height: 300px;
-    //     padding: 2rem;
-    // }
 }
