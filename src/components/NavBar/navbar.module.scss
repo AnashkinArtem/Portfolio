@@ -9,6 +9,8 @@
         height: 60px;
         background: #0c0c0c;
         color: white;
+        gap: 10px;
+        flex-wrap: wrap;
     }
     &__link{
         position: relative;
@@ -28,8 +30,8 @@
                 width: 100%;
                 height: 2px;
                 background-color: $main-color-green;
-                -webkit-animation: mymove 1s;
-                animation: mymove 1s ;
+                -webkit-animation: mymove .5s;
+                animation: mymove .5s ;
             }
         }
     }

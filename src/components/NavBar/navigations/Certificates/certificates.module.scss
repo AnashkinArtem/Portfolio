@@ -3,7 +3,7 @@
 .certificates{
     width: 100%;
     min-height: 400px;
-    background: #ffcc99;
+    background: $main-color-sand;
     padding: 1.5rem;
     display: flex;
     align-items: center;
@@ -14,13 +14,13 @@
         flex-wrap: wrap;
         width: 100%;
         gap: 20px;
-        .certificates__item{            
+        .certificates__item{   
             .item__img{
                 max-width: 400px;
                 max-height: 285px;
                 overflow: hidden;
-                border: #0c0c0c 5px solid;
-                border-radius: 10px;
+                border: $main-color-black 5px solid; 
+                border-radius: 10px;     
                 img{
                     width: 100%;
                     height: 100%;            
