@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.375d55ba.css",
-    "main.js": "/portfolio/static/js/main.4c4483ff.js",
+    "main.css": "/portfolio/static/css/main.4510bef9.css",
+    "main.js": "/portfolio/static/js/main.507afa48.js",
     "static/media/udemy_ru.png": "/portfolio/static/media/udemy_ru.36190a895b2d27c533e8.png",
     "static/media/udemy_en.png": "/portfolio/static/media/udemy_en.ca2b878117deb5b0c765.png",
     "static/media/tms.jpg": "/portfolio/static/media/tms.831b7e42298fddb9084c.jpg",
@@ -16,11 +16,11 @@
     "static/media/Raleway-Black.ttf": "/portfolio/static/media/Raleway-Black.eef1ff812c4eced3a276.ttf",
     "static/media/logo.png": "/portfolio/static/media/logo.af5f8e0a7971acdc8265.png",
     "index.html": "/portfolio/index.html",
-    "main.375d55ba.css.map": "/portfolio/static/css/main.375d55ba.css.map",
-    "main.4c4483ff.js.map": "/portfolio/static/js/main.4c4483ff.js.map"
+    "main.4510bef9.css.map": "/portfolio/static/css/main.4510bef9.css.map",
+    "main.507afa48.js.map": "/portfolio/static/js/main.507afa48.js.map"
   },
   "entrypoints": [
-    "static/css/main.375d55ba.css",
-    "static/js/main.4c4483ff.js"
+    "static/css/main.4510bef9.css",
+    "static/js/main.507afa48.js"
   ]
 }
