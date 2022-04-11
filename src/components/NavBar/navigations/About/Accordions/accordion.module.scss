@@ -4,9 +4,7 @@
     padding: 20px;
     display: flex;
     justify-content: center;
-    min-height: 300px;
     &__wrapper{
-        position: relative;
         width: 310px;
         .title__wrapper{
             display: flex;
@@ -32,13 +30,14 @@
            }
         }
        .content{
-            position: absolute;
+            position: relative;
             display: flex;
             justify-content: center;
             background: $main-color-black;
             color: white;
-            top: 50px;
             min-width: 310px;
+            min-height: 100px;
+            transition: all 1s ease;
         }       
     }
 }

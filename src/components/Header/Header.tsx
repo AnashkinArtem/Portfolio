@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from 'src/base/Logo/Logo'
-import avatar from 'src/image/header-avatar.jpg'
+import avatar from 'src/image/ava.jpg'
 import styles from './header.module.scss'
 
 const Header: React.FC = () => {
