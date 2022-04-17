@@ -8,8 +8,7 @@ import Projects from './navigations/Projects/Projects';
 import styles from './navbar.module.scss'
 
 
-
-const NavBar = () => {
+const NavBar: React.FC = () => {
 
   const setActive = ({isActive} : {isActive: any}) => isActive ? 'active__link' : '';
 

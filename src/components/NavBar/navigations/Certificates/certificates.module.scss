@@ -16,6 +16,7 @@
         gap: 20px;
         .certificates__item{   
             .item__img{
+                display: flex;
                 max-width: 400px;
                 max-height: 285px;
                 overflow: hidden;
