@@ -1,0 +1,71 @@
+@import "../../../../../../variables";
+
+.accordion{
+    display: flex;
+    justify-content: center;
+    &__wrapper{
+        width: 310px;
+        .title__wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5px;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 700;
+            height: 50px;
+            color: $main-color-black;
+            border: $main-color-black 2px solid;
+            &:hover{
+                cursor: pointer;
+            }
+           .title{
+                color: $main-color-black;
+           }
+           .plus{
+            width: 20px;
+            height: 20px;
+           }
+        }
+       .content{
+            position: relative;
+            z-index: -10;
+            height: 0px;
+            opacity: 0;
+            transition:
+            height .5s .5s ease-in;             
+       }  
+        .animated {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            background: $main-color-black;
+            color: white;
+            opacity: 1;
+            transition:  
+            opacity 1.5s ease-in-out,
+            height .3s .3s ease-in-out;  
+            text-align: center;          
+            .icon{
+                svg{
+                    width: 40px;
+                    height: 40px;
+                }
+            } 
+            .item{
+                &__institution{
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+                &__descr{
+                    font-size: 14px;
+                    text-align: center;
+                    color: $main-color-grey;
+                }
+            }
+        }
+    }
+}

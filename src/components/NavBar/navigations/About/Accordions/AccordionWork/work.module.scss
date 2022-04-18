@@ -1,7 +1,6 @@
-@import "../../../../../variables";
+@import "../../../../../../variables";
 
 .accordion{
-    padding: 20px;
     display: flex;
     justify-content: center;
     &__wrapper{
@@ -16,10 +15,7 @@
             font-weight: 700;
             height: 50px;
             color: $main-color-black;
-            border: $main-color-black 2px solid;
-            &:hover{
-                cursor: pointer;
-            }
+            border: $main-color-black 2px solid;         
            .title{
                 color: $main-color-black;
            }
@@ -27,7 +23,11 @@
             width: 20px;
             height: 20px;
            }
+           &:hover{
+            cursor: pointer;
+            }
         }
+
        .content{
             height: 0px;
             opacity: 0;

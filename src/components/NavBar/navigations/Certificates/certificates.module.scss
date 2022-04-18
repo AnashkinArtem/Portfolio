@@ -12,18 +12,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
+        flex-direction: column;
         width: 100%;
         gap: 60px;
         .certificates__item{   
             .item__img{
                 display: flex;
-                max-width: 700px;
-                max-height: 550px;
+                width: 700px;
+                height: 500px;
                 overflow: hidden;
                 border: $main-color-black 5px solid; 
                 border-radius: 10px;     
                 img{
+                    object-fit: cover;
                     width: 100%;
                     height: 100%;            
                 }

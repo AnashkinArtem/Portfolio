@@ -2,10 +2,10 @@ import React, {useEffect, useRef, useState} from 'react';
 import { AiOutlineArrowDown, AiOutlineArrowUp } from 'react-icons/ai';
 import { IoIosSchool } from "react-icons/io";
 
-import styles from '../accordion.module.scss'
+import styles from './education.module.scss'
 
 const AccordionEducation = () => {
-    const [selected, setSelected] = useState(false)
+    const [selectedEd, setSelectedEd] = useState(false)
     const [height, setHeight] = useState('');
 
     const refHeigth = useRef<HTMLDivElement>(null);
@@ -17,7 +17,7 @@ const AccordionEducation = () => {
     }, [])
    
     const handleClick = () => {
-      setSelected(!selected)
+      setSelectedEd(!selectedEd)
     }
   
   return (
@@ -25,11 +25,11 @@ const AccordionEducation = () => {
         <div className={styles.accordion__wrapper}>
              <div className={styles.title__wrapper} onClick={handleClick}>
                 <div className={styles.title}>Education</div>
-                <div className={styles.plus}>{selected ? <AiOutlineArrowUp /> : <AiOutlineArrowDown />}</div>
+                <div className={styles.plus}>{selectedEd ? <AiOutlineArrowUp /> : <AiOutlineArrowDown />}</div>
              </div>
 
-             <div className={selected ? styles.animated : styles.content}
-                  style={{minHeight: selected ? `${height}` : "0px"}}
+             <div className={selectedEd ? styles.animated : styles.content}
+                  style={{minHeight: selectedEd ? `${height}` : "0px"}}
                   ref={refHeigth}
             >
                <div className={styles.icon}><IoIosSchool /></div>

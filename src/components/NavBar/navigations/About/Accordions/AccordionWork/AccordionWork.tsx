@@ -2,12 +2,12 @@ import React, { useEffect, useState, useRef } from 'react'
 import { AiOutlineArrowDown, AiOutlineArrowUp } from 'react-icons/ai'
 import { FaHandsHelping } from 'react-icons/fa'
 
-import styles from '../accordion.module.scss'
+import styles from './work.module.scss'
 
 
-const AccordionWork:React.FC = () => {
+const AccordionWork = () => {
 
- const [selected, setSelected] = useState(false)
+ const [selectedWork, setSelectedWork] = useState(false)
  const [height, setHeight] = useState('');
 
  const refHeigth = useRef<HTMLDivElement>(null);
@@ -19,7 +19,7 @@ const AccordionWork:React.FC = () => {
  }, [])
 
  const handleClick = () => {
-   setSelected(!selected)
+   setSelectedWork(!selectedWork)
  }
 
   return (
@@ -27,12 +27,12 @@ const AccordionWork:React.FC = () => {
         <div className={styles.accordion__wrapper}>
             <div className={styles.title__wrapper} onClick={handleClick}>
                 <div className={styles.title}>WORK EXPERIENCE</div>
-                <div className={styles.plus}>{selected ? <AiOutlineArrowUp /> : <AiOutlineArrowDown />}</div>
+                <div className={styles.plus}>{selectedWork ? <AiOutlineArrowUp /> : <AiOutlineArrowDown />}</div>
             </div>
 
             <div               
-              className={selected ? styles.animated : styles.content}
-              style={{minHeight: selected ? `${height}` : "0px"}}
+              className={selectedWork ? styles.animated : styles.content}
+              style={{minHeight: selectedWork ? `${height}` : "0px"}}
               ref={refHeigth}              
             >
               <div className={styles.icon}><FaHandsHelping /></div>
