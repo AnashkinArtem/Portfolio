@@ -1,12 +1,16 @@
 @import "../../../../variables";
 
 .skills{
-    padding: 2rem 1.5rem;
+    padding: 2.5rem 1.5rem;
+    background: $main-color-sand;
     &__wrapper{
+        margin: 0 auto;
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
         gap: 25px;
+        max-width: 1200px;
         width: 100%;
         .skills__item{
             padding: 10px;

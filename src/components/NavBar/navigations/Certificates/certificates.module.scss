@@ -4,21 +4,22 @@
     width: 100%;
     min-height: 400px;
     background: $main-color-sand;
-    padding: 1.5rem;
+    padding: 2.5rem 1rem;
     display: flex;
     align-items: center;
     &__wrapper{
+        margin: 0 auto;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
-        gap: 20px;
+        gap: 60px;
         .certificates__item{   
             .item__img{
                 display: flex;
-                max-width: 400px;
-                max-height: 285px;
+                max-width: 700px;
+                max-height: 550px;
                 overflow: hidden;
                 border: $main-color-black 5px solid; 
                 border-radius: 10px;     

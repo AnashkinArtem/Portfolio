@@ -7,7 +7,7 @@
         align-items: center;
         padding: 10px;
         height: 60px;
-        background: #0c0c0c;
+        background: $main-color-black;
         color: white;
         gap: 10px;
         flex-wrap: wrap;
@@ -17,8 +17,7 @@
         text-decoration: none;
         color: white;
         font-weight: 700;
-        font-size: 17px;
-        line-height: 21px;
+        font-size: 18px;
         &:hover{
             color: $main-color-green;
             transition: all .5s ease-in-out;
