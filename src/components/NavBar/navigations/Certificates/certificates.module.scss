@@ -18,10 +18,10 @@
         .certificates__item{   
             .item__img{
                 display: flex;
-                width: 700px;
-                height: 500px;
+                max-width: 700px;
+                max-height: 500px;
                 overflow: hidden;
-                border: $main-color-black 5px solid; 
+                border: $main-color-black 3px solid; 
                 border-radius: 10px;     
                 img{
                     object-fit: cover;

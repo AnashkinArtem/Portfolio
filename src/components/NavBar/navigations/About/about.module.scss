@@ -54,7 +54,9 @@
     .accordions{
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
+        gap: 30px;
     }
 }
