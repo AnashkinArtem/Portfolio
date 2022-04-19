@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4d1576fa.css",
-    "main.js": "/portfolio/static/js/main.3c5317f1.js",
+    "main.css": "/portfolio/static/css/main.5d7e7deb.css",
+    "main.js": "/portfolio/static/js/main.26775bc7.js",
     "static/media/udemy_ru.png": "/portfolio/static/media/udemy_ru.36190a895b2d27c533e8.png",
     "static/media/udemy_en.png": "/portfolio/static/media/udemy_en.ca2b878117deb5b0c765.png",
     "static/media/tms.jpg": "/portfolio/static/media/tms.831b7e42298fddb9084c.jpg",
@@ -31,11 +31,11 @@
     "static/media/webpack.svg": "/portfolio/static/media/webpack.c8c2e8d0e2f0a75fb8001a54e687b859.svg",
     "index.html": "/portfolio/index.html",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.da27cc0037e7ae9c6dfe0dd57a4526c5.svg",
-    "main.4d1576fa.css.map": "/portfolio/static/css/main.4d1576fa.css.map",
-    "main.3c5317f1.js.map": "/portfolio/static/js/main.3c5317f1.js.map"
+    "main.5d7e7deb.css.map": "/portfolio/static/css/main.5d7e7deb.css.map",
+    "main.26775bc7.js.map": "/portfolio/static/js/main.26775bc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d1576fa.css",
-    "static/js/main.3c5317f1.js"
+    "static/css/main.5d7e7deb.css",
+    "static/js/main.26775bc7.js"
   ]
 }
