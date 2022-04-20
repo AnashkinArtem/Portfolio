@@ -1,0 +1,29 @@
+@import "../../variables";
+
+.arrowup__wrapper{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    @media (max-width: 426px){
+        right: 5px;
+        bottom: 76px;
+    }
+    @media (max-width: 362px){
+        right: 0;
+        bottom: 30px;
+    }
+}
+
+.arrowup{
+    width: 40px;
+    height: 40px;
+    color: $main-color-green;
+    &:hover{
+        color: #fa2d3e;
+        cursor: pointer;
+    }
+    @media (max-width: 362px){
+        width: 30px;
+        height: 30px;
+    }
+}

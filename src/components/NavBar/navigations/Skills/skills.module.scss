@@ -12,33 +12,5 @@
         gap: 25px;
         max-width: 1200px;
         width: 100%;
-        .skills__item{
-            padding: 10px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 7px;
-            width: 270px;
-            height: 300px;
-            border-radius: 10px;
-            background-color: $main-color-black;
-            color: white;
-            .skills__img{
-                width: 90px;
-                height: 90px;  
-            }
-            .skills__title{
-                font-size: 28px;
-                font-weight: 700;
-                color: $main-color-green;
-            }
-            .skills__descr{
-                display: flex;
-                align-items: center;
-                height: 100%;
-                font-size: 14px;
-                color: $main-color-grey;
-            }
-        }
     }
 }
