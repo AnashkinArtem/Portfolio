@@ -46,7 +46,10 @@
                     font-size: 22px;
                     font-weight: 700;
                     &:hover{
+                        transition: all .5s ease;
                         cursor: pointer;
+                        background: $main-color-green;
+                        color: white;
                     }
                 }
                 .item__board{
@@ -82,7 +85,10 @@
                     font-size: 14px;
                     min-width: 40px;
                     &:hover{
+                        transition: all .5s ease;
                         cursor: pointer;
+                        background: $main-color-green;
+                        color: white;
                     }
                 }
             }

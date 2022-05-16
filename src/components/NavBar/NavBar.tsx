@@ -21,7 +21,7 @@ const NavBar: React.FC = () => {
             <NavLink to="/portfolio/" className={setActive}><span className={styles.navbar__link}>About</span></NavLink>
             <NavLink to="/portfolio/skills" className={setActive}><span className={styles.navbar__link}>Skills</span></NavLink>
             <NavLink to="/portfolio/certificates" className={setActive}><span className={styles.navbar__link}>Certificates</span></NavLink> 
-            <NavLink to="/portfolio/applications" className={setActive}><span className={styles.navbar__link}>Applications</span></NavLink>
+            <NavLink to="/portfolio/applications" className={setActive}><span className={styles.navbar__link}>Apps</span></NavLink>
         </div>  
             <div className={styles.navbar__descr}>
               <Routes>

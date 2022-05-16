@@ -1,0 +1,35 @@
+@import "../../../../../../variables";
+
+.todo__item{
+    padding: 5px;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 400px;  
+    width: 100%; 
+    height: max-content;
+    background-color: $main-color-black;
+    color: $main-color-grey;
+    border-radius: 3px;
+    border: 1px solid white;
+    input:checked+div {
+        text-decoration: line-through;
+    }
+    .todo__title{
+        font-size: 16px;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    svg{
+        flex-shrink: 0;
+        fill: white;
+        &:hover{
+            transition: all .5s ease-in;
+            cursor: pointer;
+            fill: red;
+        }
+    }
+
+
+}
