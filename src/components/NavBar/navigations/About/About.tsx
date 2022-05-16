@@ -1,8 +1,9 @@
-import React from 'react'
-import AccordionEducation from './Accordions/AccordionEducation/AccordionEducation'
+import React from 'react';
+import AccordionEducation from './Accordions/AccordionEducation/AccordionEducation';
+import AccordionWork from './Accordions/AccordionWork/AccordionWork';
 
-import styles from './about.module.scss'
-import AccordionWork from './Accordions/AccordionWork/AccordionWork'
+import styles from './about.module.scss';
+
 
 const About = () => {
   return (
@@ -20,10 +21,12 @@ const About = () => {
                  I speak basic English (spoken and written). In addition to developing and programming websites, I am fond of all kinds of sports and spend my free time in the company of friends.
               </p>
             </div>
+
             <div className={styles.accordions}>
               <AccordionEducation/>
               <AccordionWork/>
-            </div>
+            </div>       
+
           </div>          
         </div>
     </>

@@ -3,8 +3,8 @@
 .header{
     min-height: 500px;
     padding: 2rem;
-    background: #8c365c;
-    background: radial-gradient(circle, #722347 11%, #090909 100%);  
+    background: #b9afd6;
+    background: linear-gradient(332deg, #b9afd6 0%, #36729a 100%);  
     color: white;  
     &__wrapper{
         display: flex;
@@ -29,7 +29,7 @@
             .hello__career{
                 font-weight: 800;
                 font-size: 22px;
-                color: #919191;
+                color: whitesmoke;
             }
         }
         .hello__image{   
@@ -40,7 +40,7 @@
             justify-content: center;
             align-items: center;
             border-radius: 50%;
-            border: $main-color-green 3px solid;
+            border: white 3px solid;
             img{
 
                 object-fit: cover;

@@ -3,9 +3,10 @@ import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
 import About from './navigations/About/About';
 import Certificates from './navigations/Certificates/Certificates';
 import Skills from './navigations/Skills/Skills';
-// import Projects from './navigations/Projects/Projects';
+import Applications from './navigations/Applications/Applications';
 
 import styles from './navbar.module.scss'
+
 
 
 const NavBar: React.FC = () => {
@@ -20,14 +21,14 @@ const NavBar: React.FC = () => {
             <NavLink to="/portfolio/" className={setActive}><span className={styles.navbar__link}>About</span></NavLink>
             <NavLink to="/portfolio/skills" className={setActive}><span className={styles.navbar__link}>Skills</span></NavLink>
             <NavLink to="/portfolio/certificates" className={setActive}><span className={styles.navbar__link}>Certificates</span></NavLink> 
-            {/* <NavLink to="/portfolio/projects" className={setActive}><span className={styles.navbar__link}>Projects</span></NavLink> */}
+            <NavLink to="/portfolio/applications" className={setActive}><span className={styles.navbar__link}>Applications</span></NavLink>
         </div>  
             <div className={styles.navbar__descr}>
               <Routes>
                   <Route path='/portfolio' element={<About/>}/>
                   <Route path='/portfolio/skills' element={<Skills/>}/>
                   <Route path='/portfolio/certificates' element={<Certificates/>}/>
-                  {/* <Route path='/portfolio/projects' element={<Projects/>}/> */}
+                  <Route path='/portfolio/applications' element={<Applications/>}/>
               </Routes> 
             </div>      
         </div>
